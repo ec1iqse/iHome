@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 from flask import current_app
-
+from iHome import models
+from iHome import db
 from . import api
 
 

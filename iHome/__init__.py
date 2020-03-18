@@ -9,6 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 
 from config import config_map
+from iHome.utils.commons import ReConverter
 
 # 数据库
 db = SQLAlchemy()
@@ -67,9 +68,15 @@ def create_app(mode="develop"):
     # 利用Flask-Session将Session保存到Redis
     Session(app=app)
 
+    # 为flask添加自定义转换器
+    app.url_map.converters["re"] = ReConverter
+
     # 注册蓝图
     from iHome import api_1_0  # 推迟导入
 
     app.register_blueprint(blueprint=api_1_0.api, url_prefix="/api/v1.0")
 
+    # 注册提供静态文件的蓝图
+    from iHome.web_html import html
+    app.register_blueprint(blueprint=web_html.html)
     return app
