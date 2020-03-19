@@ -630,3 +630,1407 @@ INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 00:17:40] "[37mGET / HTT
 INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 00:17:40] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
 INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\demo.py', reloading
 INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\commons.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\codecs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\aliases.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_8.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\latin_1.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\io.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_bootlocale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\gbk.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\site.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\os.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\ntpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\genericpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_collections_abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_sitebuiltins.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\warnings.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\machinery.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\contextlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\operator.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\keyword.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\heapq.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\reprlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\functools.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\__future__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\inspect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\dis.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\opcode.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\enum.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\linecache.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\tokenize.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\re.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_compile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_parse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\copyreg.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\token.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\bisect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\fnmatch.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\posixpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\optparse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\textwrap.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\gettext.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\locale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\configparser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\signal.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stringprep.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\cwp.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stringprep.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\codecs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\latin_1.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_8.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\site.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\io.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\os.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\ntpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\genericpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_collections_abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_sitebuiltins.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\codecs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\aliases.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_8.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\latin_1.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\io.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_bootlocale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\gbk.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\site.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\os.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\ntpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\genericpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_collections_abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_sitebuiltins.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\warnings.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\machinery.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\contextlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\operator.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\keyword.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\heapq.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\reprlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\functools.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\__future__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\inspect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\dis.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\opcode.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\enum.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\linecache.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\tokenize.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\re.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_compile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_parse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\copyreg.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\token.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\bisect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\fnmatch.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\posixpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\optparse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\textwrap.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\gettext.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\locale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\configparser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\signal.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stringprep.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\codecs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\aliases.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_8.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\latin_1.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\io.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_bootlocale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\gbk.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\site.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\os.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\ntpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\genericpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_collections_abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_sitebuiltins.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\warnings.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\machinery.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\contextlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\operator.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\keyword.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\heapq.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\reprlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\functools.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\__future__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\inspect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\dis.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\opcode.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\enum.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\linecache.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\tokenize.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\re.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_compile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_parse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\copyreg.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\token.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\bisect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\fnmatch.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\posixpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\optparse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\textwrap.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\gettext.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\locale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\configparser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\signal.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Scripts\\pip-script.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Scripts\\pip-script.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\inject_securetransport.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\typing.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\main.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\autocompletion.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\main_parser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\cmdoptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\errors.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\dep_util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\spawn.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\debug.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\log.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\glob.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\six.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\__pycache__\\locations.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\sysconfig.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\command\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\command\\__pycache__\\install.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\core.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\dist.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\fancy_getopt.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\getopt.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\cmd.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\dir_util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\file_util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\archive_util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\zipfile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\config.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\distutils\\__pycache__\\extension.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\scheme.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\appdirs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\appdirs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\ipaddress.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\virtualenv.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\format_control.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\__about__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\_typing.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\version.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\_structures.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\index.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\target_python.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\__pycache__\\pep425tags.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\tags.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\misc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\pkg_resources\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\plistlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\parsers\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\parsers\\__pycache__\\expat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\pkg_resources\\__pycache__\\py31compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\specifiers.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\_compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\requirements.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\pyparsing.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\pyparsing.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\packaging\\__pycache__\\markers.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\retrying.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\hashes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\ui.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\progress\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\progress\\__pycache__\\bar.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\progress\\__pycache__\\spinner.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\logging.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\deprecation.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\colorama\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\colorama\\__pycache__\\initialise.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\colorama\\__pycache__\\ansitowin32.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\colorama\\__pycache__\\ansi.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\colorama\\__pycache__\\winterm.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\colorama\\__pycache__\\win32.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\parser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\status_codes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\__pycache__\\configuration.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\commands\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\commands\\__pycache__\\install.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\__pycache__\\cache.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\link.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\filetypes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\models.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\urls.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\models\\__pycache__\\wheel.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\temp_dir.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\__pycache__\\contextlib2.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\req_command.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\base_command.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\logging\\__pycache__\\config.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\cli\\__pycache__\\command_context.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\utils\\__pycache__\\filesystem.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\index\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\index\\__pycache__\\package_finder.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_internal\\index\\__pycache__\\collector.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\cgi.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\html5parser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\_inputstream.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\webencodings\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\webencodings\\__pycache__\\labels.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_16_le.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_16_be.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\_utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\etree\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\etree\\__pycache__\\cElementTree.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\etree\\__pycache__\\ElementTree.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\etree\\__pycache__\\ElementPath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\_tokenizer.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\_trie\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\_trie\\__pycache__\\py.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\_trie\\__pycache__\\_base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\_trie\\__pycache__\\datrie.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\treebuilders\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\treebuilders\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\treewalkers\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\serializer.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\sax\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\sax\\__pycache__\\xmlreader.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\sax\\__pycache__\\handler.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\sax\\__pycache__\\_exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\xml\\sax\\__pycache__\\saxutils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\requests\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\__pycache__\\connectionpool.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\ssl_match_hostname\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\packages\\__pycache__\\six.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\__pycache__\\connection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\connection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\wait.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\contrib\\__pycache__\\_appengine_environ.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\request.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\response.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\ssl_.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\url.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\timeout.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\util\\__pycache__\\retry.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\urllib3\\__pycache__\\_collections.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\treebuilders\\__pycache__\\etree.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pip\\_vendor\\html5lib\\__pycache__\\_ihatexml.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_strptime.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\cp437.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wheel\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\shortcuts.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\__main__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\apps\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\apps\\registry.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\apps\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\apps\\__pycache__\\config.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\apps\\__pycache__\\registry.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\apps\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\bin\\django-admin.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\bin\\__pycache__\\django-admin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\global_settings.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ar\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ar\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ar\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ar\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\az\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\az\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\az\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\az\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bg\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bg\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bg\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bg\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bn\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bn\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bn\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bn\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bs\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bs\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bs\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\bs\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ca\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ca\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ca\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ca\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cs\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cs\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cs\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cs\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cy\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cy\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cy\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\cy\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\da\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\da\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\da\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\da\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de_CH\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de_CH\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de_CH\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\de_CH\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\el\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\el\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\el\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\el\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_AU\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_AU\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_AU\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_AU\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_GB\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_GB\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_GB\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\en_GB\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eo\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eo\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eo\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eo\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_AR\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_AR\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_AR\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_AR\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_CO\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_CO\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_CO\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_CO\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_MX\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_MX\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_MX\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_MX\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_NI\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_NI\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_NI\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_NI\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_PR\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_PR\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_PR\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\es_PR\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\et\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\et\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\et\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\et\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eu\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eu\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eu\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\eu\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fa\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fa\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fa\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fa\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fi\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fi\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fi\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fi\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fr\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fr\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fr\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fr\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fy\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fy\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fy\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\fy\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ga\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ga\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ga\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\ga\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gd\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gd\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gd\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gd\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gl\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gl\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gl\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\gl\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\he\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\he\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\he\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\he\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hi\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hi\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hi\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hi\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hr\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hr\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hr\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hr\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hu\\formats.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hu\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hu\\__pycache__\\formats.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\conf\\locale\\hu\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\jsonb.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\jsonb.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\jsonb.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\mixins.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\mixins.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\ranges.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\ranges.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\ranges.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\utils.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\utils.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\contrib\\postgres\\fields\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\core\\files\\utils.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\core\\files\\utils.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\core\\files\\utils.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\core\\files\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\core\\files\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\django\\core\\files\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\csrf\\session.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\appengine\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\csrf\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\django\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\sqlalchemy\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\appengine\\db.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\appengine\\fields.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\appengine\\ndb.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\csrf\\fields.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\csrf\\form.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\csrf\\session.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\dateutil\\fields.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\django\\fields.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\django\\i18n.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\django\\orm.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\django\\templatetags\\wtforms.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\i18n\\form.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\i18n\\utils.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\sqlalchemy\\fields.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\ext\\sqlalchemy\\orm.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\fields\\html5.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\wtforms\\widgets\\html5.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\extern\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\six.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\__pycache__\\py31compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\appdirs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\win32com\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\__pycache__\\pythoncom.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\win32\\lib\\__pycache__\\pywintypes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\imp.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\win32comext\\shell\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\__about__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\version.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_structures.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\specifiers.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\_compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__pycache__\\requirements.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\__pycache__\\pyparsing.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\main.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\entity.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\boltons\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\boltons\\__pycache__\\timeutils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\collection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\__pycache__\\five.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\_vendor\\__pycache__\\six.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\ish.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\logz.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\type_coercion.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\auxlib\\__pycache__\\decorators.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\toolz\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\compatibility.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\itertoolz.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\compatibility.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\functoolz.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\_signatures.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\dicttoolz.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\__pycache__\\recipes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\curried\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\curried\\__pycache__\\operator.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\curried\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\sandbox\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\sandbox\\__pycache__\\core.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\toolz\\sandbox\\__pycache__\\parallel.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\_signatures.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\curried\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\curried\\__pycache__\\operator.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\curried\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cytoolz\\__pycache__\\_version.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\base\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\base\\__pycache__\\constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\io.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\concurrent\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\concurrent\\futures\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\concurrent\\futures\\__pycache__\\_base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\concurrent\\futures\\__pycache__\\process.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\context.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\process.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\reduction.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\connection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\queues.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\concurrent\\futures\\__pycache__\\thread.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\path.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_tqdm.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_monitor.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\multiprocessing\\__pycache__\\synchronize.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_main.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\tqdm\\__pycache__\\_version.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\signals.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\conda_argparse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\base\\__pycache__\\context.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\__pycache__\\appdirs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\boltons\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\boltons\\__pycache__\\setutils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\__pycache__\\frozendict.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\configuration.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\serialize.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\cyaml.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\ext\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\error.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\reader.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\scanner.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\tokens.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\parser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\events.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\composer.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\nodes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\constructor.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\comments.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\scalarstring.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\anchor.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\scalarint.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\scalarfloat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\scalarbool.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\timestamp.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\emitter.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\serializer.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\representer.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\resolver.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\main.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\loader.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\ruamel_yaml\\__pycache__\\dumper.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\_os\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\_os\\__pycache__\\windows.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\_os\\__pycache__\\linux.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\url.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\urllib3\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\urllib3\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\urllib3\\util\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\urllib3\\util\\__pycache__\\url.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\__pycache__\\decorators.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\__pycache__\\logging.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\main_list.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\cli\\__pycache__\\common.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\match_spec.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\channel.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\version.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\core\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\core\\__pycache__\\prefix_data.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\pkg_formats\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\common\\pkg_formats\\__pycache__\\python.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\create.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\delete.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\link.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\permissions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\update.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\enums.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\read.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\package_info.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\records.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\_vendor\\boltons\\__pycache__\\timeutils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\gateways\\disk\\__pycache__\\test.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\prefix_graph.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\__pycache__\\history.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\conda\\models\\__pycache__\\dist.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\optparse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\_compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\FIELD_TYPE.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\converters.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\FLAG.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\charset.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\err.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\ER.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\times.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\connections.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\_auth.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\CLIENT.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\__about__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\ssh.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\dsa.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\ec.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\__pycache__\\_oid.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\ed25519.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\rsa.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__pycache__\\interfaces.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__pycache__\\hashes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\padding.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\COMMAND.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\CR.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\SERVER_STATUS.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\cursors.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\optionfile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\protocol.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:22] "[37mGET /static/plugins/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:22] "[37mGET /static/plugins/font-awesome/css/font-awesome.min.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/css/reset.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/plugins/swiper/css/swiper.min.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/css/ihome/main.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/css/ihome/index.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/images/logo@128x59.png HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/images/home01.jpg HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/js/jquery.min.js HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/plugins/bootstrap-datepicker/js/bootstrap-datepicker.min.js HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:23] "[37mGET /static/plugins/swiper/js/swiper.jquery.min.js HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:25] "[37mGET /static/plugins/font-awesome/fonts/fontawesome-webfont.woff?v=4.6.3 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:25] "[37mGET /static/images/home03.jpg HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:25:25] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:27:40] "[33mGET /api/v1.0/image_code/123 HTTP/1.1[0m" 404 -
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\BmpImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImageFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImagePalette.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\GimpGradientFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\GimpPaletteFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\PaletteFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\GifImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImageChops.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImageSequence.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\JpegImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\TiffImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\fractions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\JpegPresets.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\PpmImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\PngImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\ImageFile.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\flask\\_compat.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\Image.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\JpegImagePlugin.py', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:08] "[35m[1mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 500 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:08] "[37mGET /api/v1.0/image_codes/123?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:08] "[37mGET /api/v1.0/image_codes/123?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:08] "[37mGET /api/v1.0/image_codes/123?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:08] "[37mGET /api/v1.0/image_codes/123?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:08] "[37mGET /api/v1.0/image_codes/123?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:31:09] "[37mGET /api/v1.0/image_codes/123?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:40:00] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:40:01] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:41:00] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:41:01] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:47:27] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:49:32] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 19:49:33] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:35:17] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:35:30] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:35:31] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\codecs.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\aliases.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\utf_8.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\latin_1.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\io.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_bootlocale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\gbk.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\site.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\os.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\ntpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\genericpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_collections_abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\_sitebuiltins.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\warnings.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\importlib\\__pycache__\\machinery.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\contextlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\operator.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\keyword.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\heapq.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\reprlib.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\functools.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\__future__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\inspect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\dis.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\opcode.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\collections\\__pycache__\\abc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\enum.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\linecache.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\tokenize.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\re.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_compile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_parse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\sre_constants.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\copyreg.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\token.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\bisect.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\fnmatch.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\posixpath.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\optparse.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\textwrap.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\gettext.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\locale.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\configparser.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\signal.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\BmpImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImageFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImagePalette.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\GimpGradientFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\GimpPaletteFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\PaletteFile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\GifImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImageChops.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\ImageSequence.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\JpegImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\TiffImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\fractions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\JpegPresets.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\PpmImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\PIL\\__pycache__\\PngImagePlugin.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\_compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\FIELD_TYPE.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\converters.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\FLAG.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\charset.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\err.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\ER.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\times.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\connections.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\_auth.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\CLIENT.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\__about__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\ssh.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\dsa.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\ec.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\__pycache__\\_oid.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\ed25519.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\rsa.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__pycache__\\interfaces.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__pycache__\\hashes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\padding.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\COMMAND.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\CR.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\SERVER_STATUS.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\cursors.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\optionfile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:45:58] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\protocol.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:45:58] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:45:59] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:46:46] "[37mGET /api/v1.0/image_codes/123 HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [19/Mar/2020 20:46:47] "[37mGET /favicon.ico HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\verify_code.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\config.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\__init__.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\constains.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\captcha\\captcha.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\utils\\response_code.py', reloading
