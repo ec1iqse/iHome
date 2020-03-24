@@ -16,19 +16,18 @@ import datetime
 from urllib import request as urllib2
 # import urllib2
 import json
-from .xmltojson import xmltojson
+from xmltojson import xmltojson
 from xml.dom import minidom
 
 
 class REST:
-    AccountSid = ''
-    AccountToken = ''
-    AppId = ''
+    AccountSid = ""
+    AccountToken = ""
+    AppId = ""
     SubAccountSid = ''
     SubAccountToken = ''
-    ServerIP = ''
-    ServerPort = ''
-    SoftVersion = ''
+    ServerIP = "app.cloopen.com"
+    SoftVersion = ''"2013-12-26"
     Iflog = True  # 是否打印日志
     Batch = ''  # 时间戳
     BodyType = 'xml'  # 包体格式，可填值：json 、xml
@@ -39,17 +38,17 @@ class REST:
     # @param softVersion    必选参数    REST版本号
     def __init__(self, ServerIP, ServerPort, SoftVersion):
 
-        self.ServerIP = ServerIP;
-        self.ServerPort = ServerPort;
-        self.SoftVersion = SoftVersion;
+        self.ServerIP = ServerIP
+        self.ServerPort = ServerPort
+        self.SoftVersion = SoftVersion
 
     # 设置主帐号
     # @param AccountSid  必选参数    主帐号
     # @param AccountToken  必选参数    主帐号Token
 
     def setAccount(self, AccountSid, AccountToken):
-        self.AccountSid = AccountSid;
-        self.AccountToken = AccountToken;
+        self.AccountSid = AccountSid
+        self.AccountToken = AccountToken
 
         # 设置子帐号
 
@@ -58,8 +57,8 @@ class REST:
     # @param SubAccountToken  必选参数    子帐号Token
 
     def setSubAccount(self, SubAccountSid, SubAccountToken):
-        self.SubAccountSid = SubAccountSid;
-        self.SubAccountToken = SubAccountToken;
+        self.SubAccountSid = SubAccountSid
+        self.SubAccountToken = SubAccountToken
 
         # 设置应用ID
 
@@ -67,15 +66,15 @@ class REST:
     # @param AppId  必选参数    应用ID
 
     def setAppId(self, AppId):
-        self.AppId = AppId;
+        self.AppId = AppId
 
     def log(self, url, body, data):
         print('这是请求的URL：')
-        print(url);
+        print(url)
         print('这是请求包体:')
-        print(body);
+        print(body)
         print('这是响应包体:')
-        print(data);
+        print(data)
         print('********************************')
 
     # 创建子账号
@@ -86,12 +85,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/SubAccounts?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -109,7 +108,7 @@ class REST:
         data = ''
         req.add_data(body)
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -137,12 +136,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/GetSubAccounts?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -160,7 +159,7 @@ class REST:
         data = ''
         req.add_data(body)
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -188,12 +187,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/QuerySubAccountByName?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()  # Python3
         req = urllib2.Request(url)
@@ -211,7 +210,7 @@ class REST:
         data = ''
         req.add_data(body)
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -240,12 +239,15 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
-        sig = md5.new(signature).hexdigest().upper()
+        signature = self.AccountSid + self.AccountToken + self.Batch
+        # sig = md5.new(signature).hexdigest().upper()
+        sig = md5(signature.encode('utf-8')).hexdigest().upper()
         # 拼接URL
-        url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/SMS/TemplateSMS?sig=" + sig
+        # url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/SMS/TemplateSMS?sig=" + sig
+        url = "https://" + self.ServerIP + ":" + "%s" % self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/SMS/TemplateSMS?sig=" + sig
+
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()  # Python3
         req = urllib2.Request(url)
@@ -266,10 +268,10 @@ class REST:
                 b += '"%s",' % (a)
             b += ']'
             body = '''{"to": "%s", "datas": %s, "templateId": "%s", "appId": "%s"}''' % (to, b, tempId, self.AppId)
-        req.add_data(body)
+        req.data = body.encode('utf-8')  # Python3
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -309,12 +311,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/Calls/LandingCalls?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -337,7 +339,7 @@ class REST:
         req.add_data(body)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -371,12 +373,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/Calls/VoiceVerify?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -396,7 +398,7 @@ class REST:
         req.add_data(body)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -426,17 +428,17 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/ivr/dial?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
         req.add_header("Accept", "application/xml")
-        req.add_header("Content-Type", "application/xml;charset=utf-8")
+        req.add_header("Content-Type", "application/xmlcharset=utf-8")
         req.add_header("Authorization", auth)
 
         # 创建包体
@@ -449,7 +451,7 @@ class REST:
         req.add_data(body)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
             xtj = xmltojson()
@@ -471,12 +473,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/BillRecords?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -494,7 +496,7 @@ class REST:
         req.add_data(body)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
 
             res.close()
@@ -522,12 +524,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/AccountInfo?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -536,7 +538,7 @@ class REST:
         req.add_header("Authorization", auth)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -564,12 +566,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/SMS/QuerySMSTemplate?sig=" + sig
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -587,7 +589,7 @@ class REST:
         req.add_data(body)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -615,12 +617,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/CallResult?sig=" + sig + "&callsid=" + callSid
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -629,7 +631,7 @@ class REST:
         req.add_header("Authorization", auth)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
             res.close()
 
@@ -657,12 +659,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/ivr/call?sig=" + sig + "&callid=" + callid
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -680,7 +682,7 @@ class REST:
         req.add_data(body)
         data = ''
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
 
             res.close()
@@ -709,12 +711,12 @@ class REST:
         nowdate = datetime.datetime.now()
         self.Batch = nowdate.strftime("%Y%m%d%H%M%S")
         # 生成sig
-        signature = self.AccountSid + self.AccountToken + self.Batch;
+        signature = self.AccountSid + self.AccountToken + self.Batch
         sig = md5.new(signature).hexdigest().upper()
         # 拼接URL
         url = "https://" + self.ServerIP + ":" + self.ServerPort + "/" + self.SoftVersion + "/Accounts/" + self.AccountSid + "/Calls/MediaFileUpload?sig=" + sig + "&appid=" + self.AppId + "&filename=" + filename
         # 生成auth
-        src = self.AccountSid + ":" + self.Batch;
+        src = self.AccountSid + ":" + self.Batch
         # auth = base64.encodestring(src).strip()
         auth = base64.encodebytes(src.encode()).decode().strip()
         req = urllib2.Request(url)
@@ -731,7 +733,7 @@ class REST:
         req.add_data(body)
 
         try:
-            res = urllib2.urlopen(req);
+            res = urllib2.urlopen(req)
             data = res.read()
 
             res.close()
@@ -754,61 +756,61 @@ class REST:
     # 子帐号鉴权
     def subAuth(self):
         if (self.ServerIP == ""):
-            print('172004');
-            print('IP为空');
+            print('172004')
+            print('IP为空')
 
         if (self.ServerPort <= 0):
-            print('172005');
-            print('端口错误（小于等于0）');
+            print('172005')
+            print('端口错误（小于等于0）')
 
         if (self.SoftVersion == ""):
-            print('172013');
-            print('版本号为空');
+            print('172013')
+            print('版本号为空')
 
         if (self.SubAccountSid == ""):
-            print('172008');
-            print('子帐号为空');
+            print('172008')
+            print('子帐号为空')
 
         if (self.SubAccountToken == ""):
-            print('172009');
-            print('子帐号令牌为空');
+            print('172009')
+            print('子帐号令牌为空')
 
         if (self.AppId == ""):
-            print('172012');
-            print('应用ID为空');
+            print('172012')
+            print('应用ID为空')
 
     # 主帐号鉴权
     def accAuth(self):
         if (self.ServerIP == ""):
-            print('172004');
-            print('IP为空');
+            print('172004')
+            print('IP为空')
 
         if (self.ServerPort <= 0):
-            print('172005');
-            print('端口错误（小于等于0）');
+            print('172005')
+            print('端口错误（小于等于0）')
 
         if (self.SoftVersion == ""):
-            print('172013');
-            print('版本号为空');
+            print('172013')
+            print('版本号为空')
 
         if (self.AccountSid == ""):
-            print('172006');
-            print('主帐号为空');
+            print('172006')
+            print('主帐号为空')
 
         if (self.AccountToken == ""):
-            print('172007');
-            print('主帐号令牌为空');
+            print('172007')
+            print('主帐号令牌为空')
 
         if (self.AppId == ""):
-            print('172012');
-            print('应用ID为空');
+            print('172012')
+            print('应用ID为空')
 
     # 设置包头
     def setHttpHeader(self, req):
         if self.BodyType == 'json':
             req.add_header("Accept", "application/json")
-            req.add_header("Content-Type", "application/json;charset=utf-8")
+            req.add_header("Content-Type", "application/jsoncharset=utf-8")
 
         else:
             req.add_header("Accept", "application/xml")
-            req.add_header("Content-Type", "application/xml;charset=utf-8")
+            req.add_header("Content-Type", "application/xmlcharset=utf-8")
