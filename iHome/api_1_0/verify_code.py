@@ -15,6 +15,7 @@ from flask import current_app
 from flask import jsonify
 from iHome.utils.response_code import RET
 from flask import make_response
+from flask import request
 
 
 # 定义视图
@@ -64,4 +65,47 @@ def get_image_code(image_code_id):
     resp = make_response(image_data)
     resp.headers["Content-Type"] = "image/jpg"
     return resp
+    # 返回值
+
+
+# GET /api/v1.0/sms_codes/<mobile>?image_code=xxxx&image_code_id=xxxxx
+@api.route("/sms_codes/<re(r'1[3-9]\d{9})':mobile>", )
+def get_sms_code(mobile):
+    """获取短信验证码"""
+
+    # 获取参数
+    image_code = request.args.get("image_code")
+    image_code_id = request.args.get("image_code_id")
+    # 校验参数
+
+    if not all([image_code, image_code_id]):
+        # 参数不完整
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+
+    # 业务逻辑处理
+
+    # 从redis中提取真实的图片验证码
+    try:
+        real_image_code = redis_store.get("image_code_{}".format(image_code_id))
+    except Exception as  ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.DBERR, errmsg="redis数据库异常")
+
+    # 判断验证码是否过期
+    if real_image_code is None:
+        # 图片验证码或过期
+        return jsonify(errno=RET.NODATA, errmsg="图片验证码失效")
+
+    # 判断用户输入的验证码是否正确
+    if real_image_code.lower() != image_code.lower():
+        # 用户输入的验证码错误
+        return jsonify(errno=RET.DATAERR, errmsg="图片验证码错误")
+
+    # 进行对比与用户填写的值
+    # 判断手机号是否已经注册
+
+    # 如果手机号不存在，则生成短信验证码
+
+    # 发送短信
+
     # 返回值

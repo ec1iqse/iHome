@@ -70,4 +70,5 @@ class CCP(object):
 
 if __name__ == '__main__':
     cpp = CCP()
-    cpp.send_template_sms(to="15763778971", datas=["1234", 5], temp_id=1)
+    ret = cpp.send_template_sms(to="15763778971", datas=["1234", 5], temp_id=1)
+    print(ret)
