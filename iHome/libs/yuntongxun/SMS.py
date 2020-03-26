@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-from CCPRestSDK import REST
+from .CCPRestSDK import REST
 
 # import ConfigParser
 

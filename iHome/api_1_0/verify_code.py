@@ -16,6 +16,10 @@ from flask import jsonify
 from iHome.utils.response_code import RET
 from flask import make_response
 from flask import request
+from iHome import db
+from iHome.models import User
+from random import randint
+from iHome.libs.yuntongxun.SMS import CCP
 
 
 # 定义视图
@@ -69,9 +73,10 @@ def get_image_code(image_code_id):
 
 
 # GET /api/v1.0/sms_codes/<mobile>?image_code=xxxx&image_code_id=xxxxx
-@api.route("/sms_codes/<re(r'1[3-9]\d{9})':mobile>", )
+@api.route("/sms_codes/<regex(r'1[3-9]\d{9}'):mobile>", )
 def get_sms_code(mobile):
     """获取短信验证码"""
+    print(mobile)
 
     # 获取参数
     image_code = request.args.get("image_code")
@@ -86,15 +91,21 @@ def get_sms_code(mobile):
 
     # 从redis中提取真实的图片验证码
     try:
-        real_image_code = redis_store.get("image_code_{}".format(image_code_id))
+        real_image_code = redis_store.get("image_code_{}".format(image_code_id)).decode("UTF-8")
     except Exception as  ex:
         current_app.logger.error(ex)
         return jsonify(errno=RET.DBERR, errmsg="redis数据库异常")
+
+    print("验证码", image_code)
+    print("真实验证码", real_image_code)
 
     # 判断验证码是否过期
     if real_image_code is None:
         # 图片验证码或过期
         return jsonify(errno=RET.NODATA, errmsg="图片验证码失效")
+
+    print("验证码", image_code.lower())
+    print("真实验证码", real_image_code.lower())
 
     # 判断用户输入的验证码是否正确
     if real_image_code.lower() != image_code.lower():
@@ -102,10 +113,39 @@ def get_sms_code(mobile):
         return jsonify(errno=RET.DATAERR, errmsg="图片验证码错误")
 
     # 进行对比与用户填写的值
+
     # 判断手机号是否已经注册
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except Exception as ex:
+        current_app.logger.error(ex)
+    else:
+        if user is not None:
+            # 手机号已存在
+            return jsonify(errno=RET.DATAEXIST, errmsg="手机号已存在")
+    # 如果手机号不存在，则生成短信验证码(6位整数)
+    sms_code = "%06d" % randint(0, 999999)
 
-    # 如果手机号不存在，则生成短信验证码
+    # 保存真实验证码
+    try:
+        redis_store.setex("sms_code_{}".format(mobile), constains.SMS_CODE_REDIS_EXPIRE, sms_code)
+    except Exception as ex:
+        current_app.logger.error(ex)
 
+        return jsonify(error=RET.DBERR, errmsg="保存短信验证码异常")
     # 发送短信
+    ccp = CCP()
+    try:
+        result = ccp.send_template_sms(to=mobile, datas=[sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)],
+                                       temp_id=1)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(error=RET.THIRDERR, errmsg="发送异常")
 
+    # ccp.send_template_sms(mobile, [sms_code,int(constains.SMS_CODE_REDIS_EXPIRE / 60)],1)
+    if result == 0:
+        # 发送成功
+        return jsonify(error=RET.OK, errmsg="发送成功")
+    else:
+        return jsonify(error=RET.THIRDERR, errmsg="第三方发送失败")
     # 返回值

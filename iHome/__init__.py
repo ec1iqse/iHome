@@ -9,7 +9,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import CSRFProtect
 
 from config import config_map
-from iHome.utils.commons import ReConverter
+from iHome.utils.commons import RegexConverter
 
 # 数据库
 db = SQLAlchemy()
@@ -69,7 +69,7 @@ def create_app(mode="develop"):
     Session(app=app)
 
     # 为flask添加自定义转换器
-    app.url_map.converters["re"] = ReConverter
+    app.url_map.converters['regex'] = RegexConverter
 
     # 注册蓝图
     from iHome import api_1_0  # 推迟导入

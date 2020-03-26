@@ -11,11 +11,10 @@ from werkzeug.routing import BaseConverter
 
 
 # 定义正则转换器
-class ReConverter(BaseConverter):
-    """实现"""
+class RegexConverter(BaseConverter):
 
-    def __init__(self, url_map, regex):
+    def __init__(self, url_map, *args):
         # 调用父类方法
-        super(ReConverter, self).__init__(map=url_map)
+        super(RegexConverter, self).__init__(url_map)
         # 保存正则表达式
-        self.regex = regex
+        self.regex = args[0]

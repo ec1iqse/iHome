@@ -13,7 +13,7 @@ html = Blueprint(name="web_html", import_name=__name__)
 # localhost: 5000 / favicon.ico  # 浏览器logo,浏览器会自动请求这个资源
 
 
-@html.route("/<re(r'.*'):html_file_name>")
+@html.route("/<regex(r'.*'):html_file_name>")
 def get_html(html_file_name):
     """提供HTML文件"""
 
