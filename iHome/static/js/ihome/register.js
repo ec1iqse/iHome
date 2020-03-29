@@ -31,6 +31,7 @@ function generateImageCode() {
 }
 
 function sendSMSCode() {
+    // 点击发送短信验证码后执行的函数
     $(".phonecode-a").removeAttr("onclick");
     let mobile = $("#mobile").val();
     if (!mobile) {
@@ -46,6 +47,79 @@ function sendSMSCode() {
         $(".phonecode-a").attr("onclick", "sendSMSCode();");
         return;
     }
+
+    let req_data = {
+        image_code: imageCode,//图片验证码的值
+        image_code_id: imageCodeId//图片验证码的编号(全局变量)
+    };
+    // 向后端发送请求
+    $.get("/api/v1.0/sms_codes/" + mobile, req_data, function (resp) {
+        // resp是后端返回的相遇值，因为后端返回的是json字符串，所以ajax把json字符串转换为js对象
+
+
+        console.log("请求被执行");
+        console.log("resp代码：",resp.errno);
+
+
+        if (resp.errno == "0") {
+
+
+
+            console.log("==0！");
+
+
+            let num = 60
+            // 发送成功
+            let timer = setInterval(function () {
+
+                console.log("开始倒计时");
+
+
+                if (num > 1) {
+                    //修改倒计时文本
+
+
+                    console.log("修改倒计时 ");
+                    console.log("剩余"+num);
+
+
+
+                    $(".phonecode-a").html(num + "秒");
+                    num--;
+                } else {
+
+
+
+
+                    console.log("获取验证码按钮恢复");
+
+
+
+
+                    $(".phonecode-a").html("获取验证码");
+                    $(".phonecode-a").attr("onclick", "sendSMSCode();");
+                    clearInterval(timer);
+                }
+            }, 1000 * 1, 60)
+        } else {
+
+
+
+
+
+            console.log("倒计时结束！");
+
+
+
+
+
+
+            alert(resp.errmsg);
+            $(".phonecode-a").attr("onclick", "sendSMSCode();");
+        }
+    });
+
+
     $.get("/api/smscode", {mobile: mobile, code: imageCode, codeId: imageCodeId},
         function (data) {
             if (0 != data.errno) {

@@ -19,6 +19,7 @@ class Config(object):
     REDIS_HOST = "localhost"
     REDIS_PORT = 6379
     REDIS_PASSWORD = "admin"
+    REDIS_MAX_CONNECTIONS = 32
 
     # Session配置
     SESSION_TYPE = "redis"

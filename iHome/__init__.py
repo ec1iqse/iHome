@@ -16,7 +16,7 @@ db = SQLAlchemy()
 
 # 创建Redis连接对象
 redis_store = None
-
+redis_pool = None
 # 为flask补充CSRF防护机制
 csrf = CSRFProtect()
 
@@ -57,10 +57,17 @@ def create_app(mode="develop"):
     db.init_app(app)
 
     # 初始化Redis
+    global redis_pool
     global redis_store
-    redis_store = redis.StrictRedis(host=config_class.REDIS_HOST,
-                                    port=config_class.REDIS_PORT,
-                                    password=config_class.REDIS_PASSWORD)
+    redis_pool = redis.ConnectionPool(host=config_class.REDIS_HOST,
+                                      port=config_class.REDIS_PORT,
+                                      password=config_class.REDIS_PASSWORD,
+                                      max_connections=config_class.REDIS_MAX_CONNECTIONS)
+
+    # redis_store = redis.StrictRedis(host=config_class.REDIS_HOST, port=config_class.REDIS_PORT,
+    #                                 password=config_class.REDIS_PASSWORD)
+
+    redis_store = redis.StrictRedis(connection_pool=redis_pool)
 
     # 为Flask补充CSRF防护
     csrf.init_app(app=app)

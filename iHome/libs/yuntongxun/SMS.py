@@ -59,7 +59,7 @@ class CCP(object):
         #     else:
         #         print("%s:%s" % (k, v))
 
-        status_code = result.get("status_code")
+        status_code = result.get("statusCode")
         if status_code == "000000":
             # 表示发送短信成功
             return 0

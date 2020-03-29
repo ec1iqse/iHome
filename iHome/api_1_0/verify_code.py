@@ -76,7 +76,6 @@ def get_image_code(image_code_id):
 @api.route("/sms_codes/<regex(r'1[3-9]\d{9}'):mobile>", )
 def get_sms_code(mobile):
     """获取短信验证码"""
-    print(mobile)
 
     # 获取参数
     image_code = request.args.get("image_code")
@@ -92,25 +91,50 @@ def get_sms_code(mobile):
     # 从redis中提取真实的图片验证码
     try:
         real_image_code = redis_store.get("image_code_{}".format(image_code_id)).decode("UTF-8")
-    except Exception as  ex:
+    except Exception as ex:
         current_app.logger.error(ex)
         return jsonify(errno=RET.DBERR, errmsg="redis数据库异常")
 
-    print("验证码", image_code)
-    print("真实验证码", real_image_code)
+    # print("验证码", image_code)
+    # print("真实验证码", real_image_code)
 
     # 判断验证码是否过期
     if real_image_code is None:
         # 图片验证码或过期
         return jsonify(errno=RET.NODATA, errmsg="图片验证码失效")
 
-    print("验证码", image_code.lower())
-    print("真实验证码", real_image_code.lower())
+    # 删除Redis中图片验证码，防止用户使用同一个图片验证码验证多次
+    try:
+        redis_store.delete("image_code_{}".format(image_code_id))
+    except Exception as ex:
+        current_app.logger.error(ex)
+
+    # print("验证码", image_code.lower())
+    # print("真实验证码", real_image_code.lower())
 
     # 判断用户输入的验证码是否正确
     if real_image_code.lower() != image_code.lower():
         # 用户输入的验证码错误
         return jsonify(errno=RET.DATAERR, errmsg="图片验证码错误")
+
+    # 判断对于这个手机号的操作在60秒内有没有之前的记录， 如果有则认为用户操作频繁，不接受处理
+
+    try:
+        # send_flag = redis_store.get("send_sms_code_{}".format(mobile)).decode("UTF-8")
+        
+        send_flag = redis_store.get("send_sms_code_{}".format(mobile))
+
+        if send_flag is not None:
+            send_flag = redis_store.get("send_sms_code_{}".format(mobile)).decode("UTF-8")
+
+        print("*" * 100)
+        print("数据类型:", type(send_flag))
+    except Exception as ex:
+        current_app.logger.error(ex)
+    else:
+        if send_flag is not None:
+            # 表示60秒内之前有发送过的记录
+            return jsonify(errno=RET.REQERR, errmsg="请求过于频繁，请60秒后重试")
 
     # 进行对比与用户填写的值
 
@@ -129,10 +153,13 @@ def get_sms_code(mobile):
     # 保存真实验证码
     try:
         redis_store.setex("sms_code_{}".format(mobile), constains.SMS_CODE_REDIS_EXPIRE, sms_code)
+
+        # 保存发送给这个手机号的记录，防止用户在60秒内再次触发发送短信的操作
+        redis_store.setex("send_sms_code_{}".format(mobile), constains.SEND_SMS_CODE_INTERVAL, 1)
     except Exception as ex:
         current_app.logger.error(ex)
 
-        return jsonify(error=RET.DBERR, errmsg="保存短信验证码异常")
+        return jsonify(errno=RET.DBERR, errmsg="保存短信验证码异常")
     # 发送短信
     ccp = CCP()
     try:
@@ -140,12 +167,12 @@ def get_sms_code(mobile):
                                        temp_id=1)
     except Exception as ex:
         current_app.logger.error(ex)
-        return jsonify(error=RET.THIRDERR, errmsg="发送异常")
+        return jsonify(errno=RET.THIRDERR, errmsg="发送异常")
 
     # ccp.send_template_sms(mobile, [sms_code,int(constains.SMS_CODE_REDIS_EXPIRE / 60)],1)
     if result == 0:
         # 发送成功
-        return jsonify(error=RET.OK, errmsg="发送成功")
+        return jsonify(errno=RET.OK, errmsg="发送成功")
     else:
-        return jsonify(error=RET.THIRDERR, errmsg="第三方发送失败")
+        return jsonify(errno=RET.THIRDERR, errmsg="第三方发送失败")
     # 返回值

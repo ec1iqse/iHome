@@ -13,3 +13,6 @@ IMAGE_CODE_REDIS_EXPIRE = 3 * 60
 
 # 短信验证码有效期(Redis) 5*60=300秒
 SMS_CODE_REDIS_EXPIRE = 5 * 60
+
+# 发送短信验证码间隔(Redis) 1*60=60秒
+SEND_SMS_CODE_INTERVAL = 1 * 60
