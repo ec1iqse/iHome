@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
 
 from datetime import datetime
-
+from werkzeug.security import generate_password_hash
+from werkzeug.security import check_password_hash
 from . import db
 
 
@@ -26,6 +27,27 @@ class User(BaseModel, db.Model):
     avatar_url = db.Column(db.String(128))  # 用户头像路径
     houses = db.relationship("House", backref="user")  # 用户发布的房屋
     orders = db.relationship("Order", backref="user")  # 用户下的订单
+
+    @property
+    def password(self):
+        """读取属性的函数行为"""
+        # print(user.password)  # 读取属性时，属性名即为函数名
+        # return "xxx"
+        raise AttributeError("只读属性！")
+
+    # 使用这个装饰器,对应设置属性操作
+    @password.setter  # 设置password属性
+    def password(self, value):
+        """
+        设置属性 user.password = "xxxx"
+        :param value: 设置属性时的数据 value就是"xxxx"，原始的明文密码
+        :return:
+        """
+        self.password_hash = generate_password_hash(password=value, method="pbkdf2:sha256", salt_length=8)
+
+    # def generate_password_hash(self, origin_password):
+    #     """对密码进行加密"""
+    #     self.password_hash = generate_password_hash(password=origin_password, method="pbkdf2:sha256", salt_length=8)
 
 
 class Area(BaseModel, db.Model):

@@ -7,3 +7,4 @@ api = Blueprint("apt_1_0", __name__)
 # 导入蓝图视图函数
 from . import demo
 from . import verify_code
+from . import passport
