@@ -16,3 +16,9 @@ SMS_CODE_REDIS_EXPIRE = 5 * 60
 
 # 发送短信验证码间隔(Redis) 1*60=60秒
 SEND_SMS_CODE_INTERVAL = 1 * 60
+
+# 登录错误尝试次数
+LOGIN_ERROR_MAX_TIMES = 5
+
+# 登录错误限制时间 单位：10*60=600秒
+LOGIN_ERROR_FORBID_TIME = 60 * 10

@@ -20,6 +20,7 @@ from sqlalchemy.exc import IntegrityError
 from flask import session
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
+from iHome import constains
 
 
 @api.route(rule="/users", methods=["POST"])
@@ -116,3 +117,82 @@ def register():
 
     # 返回结果
     return jsonify(errno=RET.OK, errmsg="注册成功")
+
+
+@api.route(rule="/sessions", methods=["POST"])
+def login():
+    """用户登录
+    参数：手机号，密码 json
+    """
+    # 获取参数
+    req_dict = request.get_json()
+    mobile = req_dict.get("mobile")
+    password = req_dict.get("password")
+
+    # 校验参数
+    # 参数完整性
+    if not all([mobile, password]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+
+    # 判断手机号各式
+    if not re.match(r"1[3-9]\d{9}", mobile):
+        return jsonify(errno=RET.PARAMERR, errmsg="手机号格式错误")
+
+    # 用户的IP地址
+    ip = request.remote_addr
+
+    # 判断错误次数是否超过限制,如果超过限制,则返回
+    # redis记录:"access_nums_请求的IP地址":次数
+    try:
+        access_nums = redis_store.store.get("access_nums_{}".format(ip))
+        if access_nums is not None:
+            access_nums = redis_store.store.get("access_nums_{}".format(ip)).decode("UTF-8")
+    except Exception as ex:
+        current_app.logger.error(ex)
+
+    else:
+        if access_nums is not None and int(access_nums) >= constains.LOGIN_ERROR_MAX_TIMES:
+            return jsonify(errno=RET.REQERR, errmsg="错误次数过多，请稍后重试")
+
+    # 从数据库中根据手机号查询用户的数据对象
+    try:
+        user = User.query.filter_by(mobile=mobile).first()
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.DBERR, errmsg="获取用户信息失败")
+
+    if user is None or not user.check_password(password=password):
+        # 如果验证失败，记录错误次数，返回信息
+        try:
+            redis_store.incr("access_nums_{}".format(ip))
+            redis_store.expire("access_nums_{}".format(ip), constains.LOGIN_ERROR_FORBID_TIME)
+        except Exception as ex:
+            current_app.logger.error(ex)
+
+        return jsonify(errno=RET.DATAERR, errmsg="用户名或密码错误")
+
+    session["name"] = user.name
+    session["mobile"] = user.mobile
+    session["user_id"] = user.id
+    return jsonify(errno=RET.OK, errmsg="登录成功")
+
+
+
+@api.route(rule="/session", methods=["GET"])
+def check_login():
+    # 尝试从session中获取用户的名字
+    name = session.get("name")
+
+    # 如果session中数据name名字存在，则表示用户已登录，否则未登录
+    if name is not None:
+        return jsonify(errno=RET.OK, errmsg="true", data={"name": name})
+    else:
+        return jsonify(errno=RET.SESSIONERR, errmsg="false")
+
+
+@api.route(rule="/session", methods=["DELETE"])
+def logoout():
+    """登出"""
+    # 清除session数据
+    session.clear()
+    return jsonify(errno=RET.OK, errmsg="OK")

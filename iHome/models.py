@@ -48,6 +48,13 @@ class User(BaseModel, db.Model):
     # def generate_password_hash(self, origin_password):
     #     """对密码进行加密"""
     #     self.password_hash = generate_password_hash(password=origin_password, method="pbkdf2:sha256", salt_length=8)
+    def check_password(self, password):
+        """
+        校验密码的正确性
+        :param password:用户登录时填写的原始密码
+        :return:  如果正确，返回True，否则返回False
+        """
+        return check_password_hash(self.password_hash, password)
 
 
 class Area(BaseModel, db.Model):
