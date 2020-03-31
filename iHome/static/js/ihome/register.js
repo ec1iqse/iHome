@@ -1,3 +1,4 @@
+// js读取cookie的方法
 function getCookie(name) {
     let r = document.cookie.match("\\b" + name + "=([^;]*)\\b");
     return r ? r[1] : undefined;
@@ -55,65 +56,22 @@ function sendSMSCode() {
     // 向后端发送请求
     $.get("/api/v1.0/sms_codes/" + mobile, req_data, function (resp) {
         // resp是后端返回的相遇值，因为后端返回的是json字符串，所以ajax把json字符串转换为js对象
-
-
-        console.log("请求被执行");
-        console.log("resp代码：",resp.errno);
-
-
         if (resp.errno == "0") {
-
-
-
-            console.log("==0！");
-
-
             let num = 60
             // 发送成功
             let timer = setInterval(function () {
-
-                console.log("开始倒计时");
-
-
                 if (num > 1) {
                     //修改倒计时文本
-
-
-                    console.log("修改倒计时 ");
-                    console.log("剩余"+num);
-
-
-
                     $(".phonecode-a").html(num + "秒");
                     num--;
                 } else {
-
-
-
-
-                    console.log("获取验证码按钮恢复");
-
-
-
-
                     $(".phonecode-a").html("获取验证码");
                     $(".phonecode-a").attr("onclick", "sendSMSCode();");
                     clearInterval(timer);
                 }
             }, 1000 * 1, 60)
         } else {
-
-
-
-
-
             console.log("倒计时结束！");
-
-
-
-
-
-
             alert(resp.errmsg);
             $(".phonecode-a").attr("onclick", "sendSMSCode();");
         }
@@ -163,12 +121,18 @@ $(document).ready(function () {
     $("#password2").focus(function () {
         $("#password2-err").hide();
     });
+    // 为表单的提交补充自定义的函数行为(事件)
+
     $(".form-register").submit(function (e) {
+
+        // 提交事件
+        // 阻止浏览器对于表单默认自动提交行为
+
         e.preventDefault();
-        mobile = $("#mobile").val();
-        phoneCode = $("#phonecode").val();
-        passwd = $("#password").val();
-        passwd2 = $("#password2").val();
+        let mobile = $("#mobile").val();
+        let phoneCode = $("#phonecode").val();
+        let passwd = $("#password").val();
+        let passwd2 = $("#password2").val();
         if (!mobile) {
             $("#mobile-err span").html("请填写正确的手机号！");
             $("#mobile-err").show();
@@ -189,5 +153,31 @@ $(document).ready(function () {
             $("#password2-err").show();
             return;
         }
+        // 调用ajax向后端发送注册请求
+        let req_data = {
+            "mobile": mobile,
+            "sms_code": phoneCode,
+            "password": passwd,
+            "password2": passwd2,
+        };
+        let req_json = JSON.stringify(req_data);
+        $.ajax({
+            url: "/api/v1.0/users",
+            type: "post",
+            data: req_json,
+            contentType: "application/json",
+            dataType: "json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token"),
+            },//请求头，将csrf_token值放到请求中，方便后端csrf验证
+            success: function (resp) {
+                if (resp.errno === "0") {
+                    //注册成功，跳转到主页
+                    location.href = "/index.html"
+                } else {
+                    alert(resp.errmsg);
+                }
+            }
+        });
     });
 })

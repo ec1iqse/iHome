@@ -19,7 +19,7 @@ redis_store = None
 redis_pool = None
 
 # 为flask补充CSRF防护机制
-# csrf = CSRFProtect()
+csrf = CSRFProtect()
 
 # 设置日志的记录等级
 logging.basicConfig(level=logging.DEBUG)  # 调试debug级
@@ -71,7 +71,7 @@ def create_app(mode="develop"):
     redis_store = redis.StrictRedis(connection_pool=redis_pool)
 
     # 为Flask补充CSRF防护
-    # csrf.init_app(app=app)
+    csrf.init_app(app=app)
 
     # 利用Flask-Session将Session保存到Redis
     Session(app=app)
