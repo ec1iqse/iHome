@@ -144,13 +144,14 @@ def login():
     # 判断错误次数是否超过限制,如果超过限制,则返回
     # redis记录:"access_nums_请求的IP地址":次数
     try:
-        access_nums = redis_store.store.get("access_nums_{}".format(ip))
+        access_nums = redis_store.get("access_nums_{}".format(ip))
         if access_nums is not None:
-            access_nums = redis_store.store.get("access_nums_{}".format(ip)).decode("UTF-8")
+            access_nums = redis_store.get("access_nums_{}".format(ip)).decode("UTF-8")
     except Exception as ex:
         current_app.logger.error(ex)
 
     else:
+        print("获得值*****************",access_nums)
         if access_nums is not None and int(access_nums) >= constains.LOGIN_ERROR_MAX_TIMES:
             return jsonify(errno=RET.REQERR, errmsg="错误次数过多，请稍后重试")
 

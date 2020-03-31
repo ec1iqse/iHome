@@ -4889,3 +4889,128 @@ INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
 WARNING - _internal.py - 113 -  * Debugger is active!
 INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
 INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\reflection.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\enumerated.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\types.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\json.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\cymysql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqldb.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\gaerdbms.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\mysqlconnector.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\oursql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pymysql.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\pyodbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\connectors\\__pycache__\\pyodbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\zxjdbc.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\sqlalchemy\\dialects\\mysql\\__pycache__\\dml.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\_compat.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\FIELD_TYPE.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\converters.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\FLAG.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\charset.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\err.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\ER.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\times.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\connections.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\_auth.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\CLIENT.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\util.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\COMMAND.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\CR.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\constants\\__pycache__\\SERVER_STATUS.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\cursors.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\optionfile.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\pymysql\\__pycache__\\protocol.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:38:36] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\encodings\\__pycache__\\hex_codec.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:39:23] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:40:16] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:40:16] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:40:18] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:40:18] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:40:47] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ERROR - passport.py - 151 - 'Redis' object has no attribute 'store'
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:41:56] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Detected change in 'E:\\Projects\\PyCharmProjects\\iHome\\iHome\\api_1_0\\passport.py', reloading
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\__about__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\base.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\utils.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\serialization\\__pycache__\\ssh.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\__pycache__\\exceptions.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\__init__.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\dsa.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\ec.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\__pycache__\\_oid.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\ed25519.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\rsa.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\backends\\__pycache__\\interfaces.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\__pycache__\\hashes.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\site-packages\\cryptography\\hazmat\\primitives\\asymmetric\\__pycache__\\padding.cpython-37.pyc', reloading
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:53:32] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Detected change in 'D:\\ProgramData\\Anaconda3\\Lib\\__pycache__\\stringprep.cpython-37.pyc', reloading
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 -  * Restarting with windowsapi reloader
+WARNING - _internal.py - 113 -  * Debugger is active!
+INFO - _internal.py - 113 -  * Debugger PIN: 657-228-583
+INFO - _internal.py - 113 -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:54:04] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:54:05] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:54:06] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:54:07] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:54:09] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:54:10] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
+INFO - _internal.py - 113 - 127.0.0.1 - - [31/Mar/2020 20:55:05] "[37mPOST /api/v1.0/sessions HTTP/1.1[0m" 200 -
