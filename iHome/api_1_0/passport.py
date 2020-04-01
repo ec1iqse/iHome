@@ -192,7 +192,7 @@ def check_login():
 
 
 @api.route(rule="/session", methods=["DELETE"])
-def logoout():
+def logout():
     """登出"""
     # 清除session数据
     session.clear()
