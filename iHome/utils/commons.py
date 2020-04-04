@@ -14,6 +14,7 @@ from flask import jsonify
 from flask import g
 import functools
 
+
 # 定义正则转换器
 class RegexConverter(BaseConverter):
 
@@ -26,7 +27,7 @@ class RegexConverter(BaseConverter):
 
 # 定义的验证登录状态的装饰器
 def login_required(view_func):
-
+    # @functools.wraps将原函数对象的指定属性复制给包装函数对象
     @functools.wraps(view_func)
     def wrapper(*args, **kwargs):
         # 判断用户的登录状态
@@ -43,7 +44,7 @@ def login_required(view_func):
     return wrapper
 
 
-@login_required
-def set_user_avatar():
-    user_id=g.user_id
-    pass
+# @login_required
+# def set_user_avatar():
+#     user_id = g.user_id
+#     pass
