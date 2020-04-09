@@ -9,6 +9,7 @@
 """
 import os
 import sys
+
 # 图片验证码有效期(Redis) 3*60=180秒
 IMAGE_CODE_REDIS_EXPIRE = 3 * 60
 
@@ -28,5 +29,7 @@ LOGIN_ERROR_FORBID_TIME = 60 * 10
 FAST_DFS_URL = "http://39.106.97.132:8888/"
 
 # FastDFS配置文件目录
-# print(sys.argv)
-# print(os.path.join(os.getcwd(),))
+
+
+# 城区信息的缓存时间：7200秒(两小时)
+AREA_INFO_REDIS_CACHE_EXPIRE = 60 * 120

@@ -18,8 +18,6 @@ from iHome.models import User
 from iHome.models import db
 from sqlalchemy.exc import IntegrityError
 from flask import session
-from werkzeug.security import generate_password_hash
-from werkzeug.security import check_password_hash
 from iHome import constains
 
 

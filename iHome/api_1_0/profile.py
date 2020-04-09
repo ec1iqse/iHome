@@ -20,9 +20,10 @@ from flask import current_app
 from iHome.models import User
 from iHome import db
 from iHome import constains
+from flask import session
 
 
-@api.route("/users/avatar", methods=["POST"])
+@api.route(rule="/users/avatar", methods=["POST"])
 @login_required
 def set_user_avatar():
     print("设置用户头像")
@@ -61,3 +62,38 @@ def set_user_avatar():
     return jsonify(errno=RET.OK, errmsg="保存成功", data={
         "avatar_url": avatar_url
     })
+
+
+@api.route(rule="/users/name", methods=["PUT"])
+@login_required
+def change_user_name():
+    """修改用户名"""
+    user_id = g.user_id
+
+    req_data = request.get_json()
+    if not req_data:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数不完整")
+
+    name = req_data.get("name")
+    if not name:
+        return jsonify(errno=RET.PARAMERR, errmsg="名字不能为空")
+
+    # 保存用户昵称name,并同时判断name是否重复(利用数据库的唯一索引)
+    try:
+        User.query.filter_by(id=user_id).update({"name": name})
+        db.session.commit()
+    except Exception as ex:
+        current_app.logger.error(ex)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="设置用户错误")
+
+    # 修改session数据中的name字段
+    session["name"] = name
+    return jsonify(errno=RET.OK, errmsg="OK", data={"name": name})
+
+
+@api.route(rule="/user", methods=["GET"])
+@login_required
+def change_user_name():
+    """获取个人信息"""
+    user_id = g.user_id
