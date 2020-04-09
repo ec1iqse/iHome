@@ -4,6 +4,8 @@ from datetime import datetime
 from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from . import db
+from iHome import constains
+from time import strftime
 
 
 class BaseModel(object):
@@ -55,6 +57,24 @@ class User(BaseModel, db.Model):
         :return:  如果正确，返回True，否则返回False
         """
         return check_password_hash(self.password_hash, password)
+
+    def to_dict(self):
+        user_dict = {
+            "user_id": self.id,
+            "name": self.name,
+            "mobile": self.mobile,
+            "avatar": constains.FAST_DFS_URL + self.avatar_url if self.avatar_url else "",
+            "create_time": self.create_time.strftime("%Y-%m-%d %H:%M:%S")
+        }
+        return user_dict
+
+    def auth_to_dict(self):
+        auth_dict = {
+            "user_id": self.id,
+            "real_name": self.real_name,
+            "id_card": self.id_card,
+        }
+        return auth_dict
 
 
 class Area(BaseModel, db.Model):

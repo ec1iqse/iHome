@@ -26,4 +26,16 @@ function logout() {
 }
 
 $(document).ready(function () {
-})
+    $.get("/api/v1.0/user", function (resp) {
+        //用户未登录
+        if ("4101" === resp.errno) {
+            location.href = "/login.html";
+        } else if ("0" === resp.errno) {
+            $("#user-name").html(resp.data.name);
+            $("#user-mobile").html(resp.data.mobile);
+            if (resp.data.avatar) {
+                $("#user-avatar").attr("src", resp.data.avatar);
+            }
+        }
+    }, "json");
+});

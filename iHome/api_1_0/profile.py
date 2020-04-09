@@ -97,3 +97,54 @@ def change_user_name():
 def change_user_name():
     """获取个人信息"""
     user_id = g.user_id
+    # 查询数据库获取个人信息
+    try:
+        user = User.query.get(user_id)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.DBERR, errmsg="获取用户信息失败")
+    if user is None:
+        return jsonify(errno=RET.NODATA, errmsg="无效操作")
+    return jsonify(errno=RET.OK, errmsg="OK", data=user.to_dict())
+
+
+@api.route(rule="/users/auth", methods=["GET"])
+@login_required
+def get_user_auth():
+    """获取用户实名认证信息"""
+    user_id = g.user_id
+    # 在数据库中查询信息
+    try:
+        user = User.query.get(user_id)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.DBERR, errmsg="获取用户实名信息失败")
+    if user is None:
+        return jsonify(errno=RET.NODATA, errmsg="无效操作")
+    return jsonify(errno=RET.OK, errmsg="OK", data=user.auth_to_dict())
+
+
+@api.route(rule="/users/auth", methods=["POST"])
+@login_required
+def set_user_auth():
+    """保存实名认证信息"""
+    user_id = g.user_id
+
+    # 获取参数
+    req_data = request.get_json()
+    if not req_data:
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    real_name = req_data.get("real_name")
+    id_card = req_data.get("id_card")
+
+    if not all([real_name, id_card]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+    try:
+        User.query.filter_by(id=user_id, real_name=None, id_card=None).update(
+            {"real_name": real_name, "id_card": id_card})
+        db.session.commit()
+    except Exception as ex:
+        current_app.error(ex)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="保存用户实名信息失败")
+    return jsonify(errno=RET.OK, errmsg="OK")
