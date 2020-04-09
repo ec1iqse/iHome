@@ -7,7 +7,8 @@
 @Email   : 
 @Desc  :保存常量
 """
-
+import os
+import sys
 # 图片验证码有效期(Redis) 3*60=180秒
 IMAGE_CODE_REDIS_EXPIRE = 3 * 60
 
@@ -22,3 +23,10 @@ LOGIN_ERROR_MAX_TIMES = 5
 
 # 登录错误限制时间 单位：10*60=600秒
 LOGIN_ERROR_FORBID_TIME = 60 * 10
+
+# FastDFS连接
+FAST_DFS_URL = "http://39.106.97.132:8888/"
+
+# FastDFS配置文件目录
+# print(sys.argv)
+# print(os.path.join(os.getcwd(),))
