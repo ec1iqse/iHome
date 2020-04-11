@@ -15,6 +15,7 @@ from flask import current_app
 from iHome.models import Area
 from iHome import constains
 from iHome import redis_store
+from iHome.utils.commons import login_required
 
 
 @api.route(rule="/areas", methods=["GET"])
@@ -56,3 +57,11 @@ def get_area_info():
         current_app.logger.error(ex)
 
     return resp_json, 200, {"Content-Type": "application/json"}
+
+
+@api.route(rule="/houses/info", methods=["POST"])
+@login_required
+def save_house_info():
+    """保存房屋的基本信息"""
+
+    pass

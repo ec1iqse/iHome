@@ -94,7 +94,7 @@ def change_user_name():
 
 @api.route(rule="/user", methods=["GET"])
 @login_required
-def change_user_name():
+def get_user_profile():
     """获取个人信息"""
     user_id = g.user_id
     # 查询数据库获取个人信息
