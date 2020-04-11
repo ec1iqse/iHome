@@ -5,7 +5,6 @@ from werkzeug.security import generate_password_hash
 from werkzeug.security import check_password_hash
 from . import db
 from iHome import constains
-from time import strftime
 
 
 class BaseModel(object):
