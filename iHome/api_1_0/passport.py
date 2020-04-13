@@ -36,10 +36,7 @@ def register():
     password = request_dict.get("password")
     password2 = request_dict.get("password2")
 
-    print("手机号", mobile)
-    print("验证码", sms_code)
-    print("密码", password)
-    print("确认密码", password2)
+
 
     # 校验参数
     if not all([mobile, sms_code, password, password2]):

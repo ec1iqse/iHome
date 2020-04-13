@@ -22,6 +22,67 @@ $(document).ready(function () {
             alert(resp.errmsg);
         }
 
-    }, "json")
+    }, "json");
 
-})
+    $("#form-house-info").submit(function (e) {
+        e.preventDefault();
+        //处理表单数据
+        let data = {};
+        $("#form-house-info").serializeArray().map(function (x) {
+            data[x.name] = x.value;
+        });
+
+
+        //收集设置id信息
+        let facility = [];
+        $(":checked[name=facility]").each(function (index, x) {
+            facility[index] = $(x).val();
+        });
+        data.facility = facility;
+        //向后端发松请求
+        $.ajax({
+            url: "api/v1.0/houses/info",
+            type: "post",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            dataType: "json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token")
+            },
+            success: function (resp) {
+                if ("4101" === resp.errno) {
+                    location.href = "./login.html";
+                } else if ("0" === resp.errno) {
+                    //隐藏基本信息表单
+                    $("#form-house-info").hide();
+                    //显示图片表单
+                    $("#form-house-image").show();
+                    //设置图片表单中的house_id
+                    $("#house-id").val(resp.data.house_id);
+                } else {
+                    alert(resp.errmsg);
+                }
+            }
+        });
+    });
+    $("#form-house-image").submit(function (e) {
+        e.preventDefault();
+        $(this).ajaxSubmit({
+            url: "url/api/v1.0/houses/image",
+            type: "post",
+            dataType: "json",
+            headers: {
+                "X-CSRFToken": getCookie("csrf_token"),
+            },
+            success: function (resp) {
+                if ("4101" === resp.errno) {
+                    location.href = "./login.html"
+                } else if ("0" === resp.errno) {
+                    $(".house-image-cons").append('<img src="' + resp.data.image_url + '">');
+                } else {
+                    alert(resp.errmsg);
+                }
+            }
+        });
+    });
+});

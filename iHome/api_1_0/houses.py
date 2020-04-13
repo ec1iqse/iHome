@@ -21,6 +21,9 @@ from flask import request
 from flask import g
 from iHome.models import db
 from iHome.models import Facility
+from iHome.utils.commons import login_required
+from iHome.utils.FastDFS_image_upload.image_storage import upload_image_by_buffer
+from iHome.models import HouseImage
 
 
 @api.route(rule="/areas", methods=["GET"])
@@ -101,7 +104,7 @@ def save_house_info():
     except Exception as ex:
         current_app.logger.error(ex)
         return jsonify(errno=RET.DBERR, errmsg="数据异常")
-    if area in None:
+    if area is None:
         return jsonify(errno=RET.NODATA, errmsg="城区信息有误")
 
     # 保存房屋信息
@@ -127,12 +130,12 @@ def save_house_info():
         return jsonify(errno=RET.DBERR, errmsg="保存数据异常")
 
     # 处理房屋的设施信息
-    facilities_ids = house_data.get("facilitiy")
+    facilities_ids = house_data.get("facility")
     # 如果用户勾选了设施信息，再保存数据库
     if facilities_ids:
         # ["7","8"]
         try:
-            facilities = Facility.query.fileter(Facility.id.in_(facilities_ids)).all()
+            facilities = Facility.query.filter(Facility.id.in_(facilities_ids)).all()
         except Exception as ex:
             current_app.logger.error(ex)
             return jsonify(errno=RET.DBERR, errmsg="数据库异常")
@@ -151,3 +154,51 @@ def save_house_info():
 
     # 保存数据成功
     return jsonify(errno=RET.OK, errmsg="OK", data={"house_id": house.id})
+
+
+@api.route(rule="/houses/image", methods=["POST"])
+@login_required
+def save_house_image():
+    """保存房屋的图片
+    参数：图片，房屋ID，
+    """
+    image_file = request.files.get("house_image")
+    house_id = request.form.get("house_id")
+
+    if not all([image_file, house_id]):
+        return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
+
+    # 判断house_id的正确性
+    try:
+        house = House.query.get(house_id)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.DBERR, errmsg="数据库异常")
+
+    if house is None:
+        return jsonify(errno=RET.NODATA, errmsg="房屋不存在")
+
+    # 保存图片到FastDFS
+    try:
+        file_name = upload_image_by_buffer(file_buffer=image_file)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.THIRDERR, errmsg="保存图片失败")
+
+    # 保存图片信息到数据库中
+    house_image = HouseImage(house_id=house_id, url=file_name)
+    db.session.add(house_image)
+
+    # 处理房屋的主图片
+    if not house.index_image_url:
+        house.index_image_url = file_name
+        db.session.add(house)
+
+    try:
+        db.session.commit()
+    except Exception as ex:
+        current_app.logger.error(ex)
+        db.session.rollback()
+        return jsonify(errno=RET.DBERR, errmsg="保存图片信息异常")
+    image_url = constains.FAST_DFS_URL + file_name
+    return jsonify(errno=RET.OK, errmsg="OK", data={"image_url": image_url})
