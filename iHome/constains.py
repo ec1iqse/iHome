@@ -33,3 +33,15 @@ FAST_DFS_URL = "http://39.106.97.132:8888/"
 
 # 城区信息的缓存时间：7200秒(两小时)
 AREA_INFO_REDIS_CACHE_EXPIRE = 60 * 120
+
+# 首页展示最多的房屋数量
+HOME_PAGE_MAX_HOUSES = 5
+
+# 首页房屋数据的redis缓存时间：7200秒(两小时)
+HOME_PAGE_DATA_REDIS_EXPIRE = 60 * 120
+
+# 房屋详情页展示的评论最大数
+HOUSE_DETAIL_COMMENT_DISPLAY_COUNTS = 30
+
+# 房屋详情页面数据Redis缓存时间
+HOUSE_DETAIL_REDIS_EXPIRE_SECOND = 60 * 120
