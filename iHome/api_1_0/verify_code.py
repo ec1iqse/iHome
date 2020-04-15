@@ -22,6 +22,7 @@ from random import randint
 from iHome.libs.yuntongxun.SMS import CCP
 # from iHome.tasks.task_sms import send_sms
 from iHome.tasks.sms.tasks import send_sms
+from iHome.tasks.sms import tasks
 
 
 # 定义视图
@@ -283,10 +284,17 @@ def get_sms_code(mobile):
 
     # 发送短信
     # 使用celery异步发送短信，delay函数调用后会立即返回
-    send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
+    # send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
+    result = tasks.send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
+    print(result.id)
+
+    # 通过get方法能获取celery异步执行的结果
+    # get方法默认是阻塞行为，会等到有了执行结果之后才会返回
+    # get方法也接受参数timeout, 超时时间，超过超时时间还拿不到结果则返回
+    ret = result.get()
 
     print("异步发送短信成功")
-
+    print(ret)
     # ccp.send_template_sms(mobile, [sms_code,int(constains.SMS_CODE_REDIS_EXPIRE / 60)],1)
     # 发送成功
     return jsonify(errno=RET.OK, errmsg="发送成功")

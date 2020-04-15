@@ -11,10 +11,10 @@ import os
 from celery import Celery
 from iHome.tasks import config
 
-# os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
-# 定义celery对象
+os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
+# # 定义celery对象
 celery_app = Celery("iHome")
-# 引入配置信息
+# # 引入配置信息
 celery_app.config_from_object(config)
-# 自动搜寻异步任务
+# # 自动搜寻异步任务
 celery_app.autodiscover_tasks(packages=["iHome.tasks.sms"])

@@ -7,5 +7,5 @@
 @Email   : 
 @Desc  :
 """
-BROKER_URL = "redis://:admin@127.0.0.1:6379/1"
-CELERY_RESULT_BACKEND = "redis://:admin@127.0.0.1:6379/2"
+BROKER_URL = "redis://:admin@127.0.0.1:6379/3"
+CELERY_RESULT_BACKEND = "redis://:admin@127.0.0.1:6379/4"

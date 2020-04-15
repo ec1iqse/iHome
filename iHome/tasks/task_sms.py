@@ -7,12 +7,8 @@
 @Email   : 
 @Desc  :
 """
-import os
-from celery import Celery
 from iHome.libs.yuntongxun.SMS import CCP
-
-os.environ.setdefault('FORKED_BY_MULTIPROCESSING', '1')
-celery_app = Celery("iHome", broker="redis://:admin@localhost:6379/1")
+from iHome.tasks.main import celery_app
 
 
 @celery_app.task
