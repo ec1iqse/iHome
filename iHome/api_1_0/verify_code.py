@@ -20,7 +20,8 @@ from iHome import db
 from iHome.models import User
 from random import randint
 from iHome.libs.yuntongxun.SMS import CCP
-from iHome.tasks.task_sms import send_sms
+# from iHome.tasks.task_sms import send_sms
+from iHome.tasks.sms.tasks import send_sms
 
 
 # 定义视图
@@ -225,7 +226,6 @@ def get_sms_code(mobile):
 
     print(" 判断用户输入的验证码是否正确")
 
-
     # 判断用户输入的验证码是否正确
     if real_image_code.lower() != image_code.lower():
         # 用户输入的验证码错误
@@ -253,8 +253,6 @@ def get_sms_code(mobile):
     # 进行对比与用户填写的值
 
     print("进行对比与用户填写的值")
-
-
 
     # 判断手机号是否已经注册
     try:
@@ -287,9 +285,7 @@ def get_sms_code(mobile):
     # 使用celery异步发送短信，delay函数调用后会立即返回
     send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
 
-
     print("异步发送短信成功")
-
 
     # ccp.send_template_sms(mobile, [sms_code,int(constains.SMS_CODE_REDIS_EXPIRE / 60)],1)
     # 发送成功
