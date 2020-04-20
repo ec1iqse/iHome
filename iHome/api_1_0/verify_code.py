@@ -59,9 +59,9 @@ def get_image_code(image_code_id):
         #                            记录名字                                 有效期                             值
         redis_store.setex(name="image_code_{}".format(image_code_id), time=constains.IMAGE_CODE_REDIS_EXPIRE,
                           value=text)
-    except Exception as e:
+    except Exception as ex:
         # 记录日志
-        current_app.logger.error(e)
+        current_app.logger.error(ex)
         # return jsonify(errno=RET.DBERR, errmsg="save image code failed")
         return jsonify(errno=RET.DBERR, errmsg="保存图片验证码失败")
 
@@ -280,7 +280,8 @@ def get_sms_code(mobile):
     # 发送短信
     # 使用celery异步发送短信，delay函数调用后会立即返回
     # send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
-    result = tasks.send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
+    # result = tasks.send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
+    result = send_sms.delay(mobile, [sms_code, int(constains.SMS_CODE_REDIS_EXPIRE / 60)], 1)
     print(result.id)
 
     # 通过get方法能获取celery异步执行的结果
