@@ -17,11 +17,7 @@ $(document).ready(function () {
                 } else {
                     $("#houses-list").html(template("houses-list-tmpl"), {houses: []});
                 }
-
             });
         }
-
     });
-
-
 });

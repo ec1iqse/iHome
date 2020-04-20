@@ -44,7 +44,7 @@ def get_area_info():
             current_app.logger.info("hit redis area_info")
             return resp_json, 200, {"Content-Type": "application/json"}
 
-    # 查询数据库，读取程序信息
+    # 查询数据库，读取城区信息
     try:
         area_list = Area.query.all()
     except Exception as ex:
@@ -81,7 +81,7 @@ def save_house_info():
     address = house_data.get("address")  # 房屋地址
     room_count = house_data.get("room_count")  # 房屋包含的房间数目
     acreage = house_data.get("acreage")  # 房屋面积
-    unit = house_data.get("unit")  # 房屋布局(几室几厅)
+    unit = house_data.get("unit")  # 房屋布局（几室几厅)
     capacity = house_data.get("capacity")  # 房屋容纳人数
     beds = house_data.get("beds")  # 房屋卧床数目
     deposit = house_data.get("deposit")  # 押金
@@ -98,6 +98,7 @@ def save_house_info():
         price = int(float(price) * 100)  # 数据库中是以分为单位计算
         deposit = int(float(deposit) * 100)
     except Exception as ex:
+        current_app.logger.error(ex)
         return jsonify(errno=RET.PARAMERR, errmsg="参数错误")
 
     # 判断城区id是否存在
@@ -125,11 +126,13 @@ def save_house_info():
         min_days=min_days,
         max_days=max_days
     )
-    try:
-        db.session.add(house)
-    except Exception as ex:
-        current_app.logger.error(ex)
-        return jsonify(errno=RET.DBERR, errmsg="保存数据异常")
+
+
+    # try:
+    #     db.session.add(house)
+    # except Exception as ex:
+    #     current_app.logger.error(ex)
+    #     return jsonify(errno=RET.DBERR, errmsg="保存数据异常")
 
     # 处理房屋的设施信息
     facilities_ids = house_data.get("facility")
@@ -228,7 +231,7 @@ def get_user_houses():
 
 
 @api.route("/houses/index", methods=["GET"])
-@login_required
+# @login_required
 def get_house_index():
     """获取主页幻灯片展示的房屋基本信息"""
     # 尝试从缓存中读取数据
