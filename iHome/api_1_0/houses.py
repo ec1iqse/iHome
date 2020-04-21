@@ -362,6 +362,9 @@ def get_house_list():
             current_app.logger.error(ex)
             page = 1
 
+    print("*"*50)
+    print("page1",page)
+
     # 存放条件(过滤条件的参数容器)
     filter_params = list()
 
