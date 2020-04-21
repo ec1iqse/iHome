@@ -16,7 +16,6 @@ from iHome.models import Area
 from iHome.models import House
 from iHome import constains
 from iHome import redis_store
-from iHome.utils.commons import login_required
 from flask import request
 from flask import g
 from iHome.models import db
@@ -26,6 +25,8 @@ from iHome.utils.FastDFS_image_upload.image_storage import upload_image_by_buffe
 from iHome.models import HouseImage
 from iHome.models import User
 from flask import session
+from datetime import datetime
+from iHome.models import Order
 
 
 @api.route(rule="/areas", methods=["GET"])
@@ -126,7 +127,6 @@ def save_house_info():
         min_days=min_days,
         max_days=max_days
     )
-
 
     # try:
     #     db.session.add(house)
@@ -321,3 +321,82 @@ def get_house_detail(house_id):
     resp = """{"errno":"0", "errmsg":"OK", "data":{"user_id":{}, "house":{}}}""".format(user_id, json_house), 200, {
         "Content-Type": "application/json"}
     return resp
+
+
+# GET /api/v1.0/houses?sd=2017-12-01&ed=20171231&aid=10&sk=new
+@api.route(rule="/houses", methods=["GET"])
+def get_house_list():
+    """获取房屋的列表界面(搜索页面)"""
+    start_date = request.args.get("sd")  # 用户想要的起始时间
+    end_date = request.args.get("ed")  # 用户想要的结束时间
+    area_id = request.args.get("aid")  # 区域编号
+    sort_key = request.args.get("sk", "new")  # 排序关键字
+    page = request.args.get("p")  # 页数
+
+    try:
+        # 处理时间
+        if start_date:
+            start_date = datetime.strptime(date_string=start_date, format="%Y-%m-%d")
+        if end_date:
+            end_date = datetime.strptime(date_string=end_date, format="%Y-%m-%d")
+        if start_date and end_date:
+            assert start_date <= end_date  # 断言
+
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.PARAMERR, errmsg="日期参数有误")
+
+    # 判断区域ID
+    try:
+        ares = Area.query.get(area_id)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        return jsonify(errno=RET.PARAMERR, errmsg="区域参数有误")
+
+    # 处理页数
+    try:
+        page = int(page)
+    except Exception as ex:
+        current_app.logger.error(ex)
+        page = 1
+
+    # 存放条件(过滤条件的参数容器)
+    filter_params = list()
+
+    # 填充过滤参数
+    conflict_orders = None
+    if start_date and end_date:
+        # 查询冲突的订单
+        conflict_orders = Order.query.filter(Order.begin_date <= end_date, Order.end_date <= start_date).all()
+    elif start_date:
+        # # 查询冲突的订单
+        conflict_orders = Order.query.filter(Order.end_date <= start_date).all()
+    elif end_date:
+        # # 查询冲突的订单
+        conflict_orders = Order.query.filter(Order.begin_date <= end_date).all()
+
+    if conflict_orders:
+        # 从订单中获取冲突的房屋id
+        conflict_house_ids = [order.house_id for order in conflict_orders]
+
+        # 如果冲突的房屋ID不为空，向查询参数中添加条件
+        if conflict_house_ids:
+            # 填充过滤参数
+            filter_params.append([House.id.notin_(conflict_house_ids)])
+
+    # 区域条件
+    if area_id:
+        filter_params.append(House.area_id == area_id)
+
+    # 查询数据库
+    # 补充排序条件
+    if sort_key == "new":
+        House.query.filter(*filter_params).order_by(House.create_time.desc())
+    elif sort_key == "booking":  # 入住最多
+        House.query.filter(*filter_params).order_by(House.order_count.desc())
+    elif sort_key == "price-inc":  # 价格升序
+        House.query.filter(*filter_params).order_by(House.price.asc())
+    elif sort_key == "price-des":  # 价格降序
+        House.query.filter(*filter_params).order_by(House.price.desc())
+    else:  # 新旧
+        House.query.filter(*filter_params).order_by(House.create_time.desc())
