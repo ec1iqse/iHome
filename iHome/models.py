@@ -34,7 +34,7 @@ class User(BaseModel, db.Model):
         """读取属性的函数行为"""
         # print(user.password)  # 读取属性时，属性名即为函数名
         # return "xxx"
-        raise AttributeError("只读属性！")
+        raise AttributeError("这个属性只能设置，不能读取")
 
     # 使用这个装饰器,对应设置属性操作
     @password.setter  # 设置password属性
@@ -68,10 +68,11 @@ class User(BaseModel, db.Model):
         return user_dict
 
     def auth_to_dict(self):
+        """将实名信息转换为字典数据"""
         auth_dict = {
             "user_id": self.id,
             "real_name": self.real_name,
-            "id_card": self.id_card,
+            "id_card": self.id_card
         }
         return auth_dict
 
@@ -183,8 +184,8 @@ class House(BaseModel, db.Model):
         for order in orders:
             comment = {
                 "comment": order.comment,  # 评论的内容
-                "user_name": order.user.name if order.user.name != order.user.mobile else "匿名用户",
-                "ctime": order.update_time.strftime("%Y-%m-%d %H:%M:S")  # 评价的时间
+                "user_name": order.user.name if order.user.name != order.user.mobile else "匿名用户",  # 发表评论的用户
+                "ctime": order.update_time.strftime("%Y-%m-%d %H:%M:%S")  # 评价的时间
             }
             comments.append(comment)
         house_dict["comments"] = comments
@@ -233,5 +234,23 @@ class Order(BaseModel, db.Model):
             "CANCELED",  # 已取消
             "REJECTED"  # 已拒单
         ),
-        default="WAIT_ACCEPT", index=True)
+        default="WAIT_ACCEPT", index=True)  # 指明在mysql中这个字段建立索引，加快查询速度
     comment = db.Column(db.Text)  # 订单的评论信息或者拒单原因
+
+    # trade_no = db.Column(db.String(80))  # 交易的流水号 支付宝的
+
+    def to_dict(self):
+        """将订单信息转换为字典数据"""
+        order_dict = {
+            "order_id": self.id,
+            "title": self.house.title,
+            "img_url": constains.FAST_DFS_URL + self.house.index_image_url if self.house.index_image_url else "",
+            "start_date": self.begin_date.strftime("%Y-%m-%d"),
+            "end_date": self.end_date.strftime("%Y-%m-%d"),
+            "ctime": self.create_time.strftime("%Y-%m-%d %H:%M:%S"),
+            "days": self.days,
+            "amount": self.amount,
+            "status": self.status,
+            "comment": self.comment if self.comment else ""
+        }
+        return order_dict
