@@ -268,7 +268,10 @@ def get_house_index():
         except Exception as ex:
             current_app.logger.error(ex)
 
-        return """{"errno": 0,"errmsg": "OK","data": {}}""".format(json_house), 200, {
+        # return """{"errno": 0,"errmsg": "OK","data": {}}""".format(json_house), 200, {
+        #     "Content-Type": "application/json"}
+
+        return f'{"errno": 0,"errmsg": "OK","data": {json_house}}', 200, {
             "Content-Type": "application/json"}
 
 
